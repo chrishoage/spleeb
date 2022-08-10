@@ -311,7 +311,7 @@ outlines:
     - what: outline
       name: _fillet_panel
       expand: plate_expand
-  preview:
+  _preview:
     - what: outline
       name: _plate_base
       operation: add
