@@ -65,7 +65,9 @@ async function build(configFile, outputPath, debug = false) {
       const file = footprintDirFiles[index];
       if (file.endsWith(".js")) {
         const name = path.basename(file, ".js");
-        const footprint = require(path.resolve(footprints, file));
+        const footprintFile = path.resolve(footprints, file);
+        delete require.cache[footprintFile];
+        const footprint = require(footprintFile);
         ergogen.inject_footprint(name, footprint);
       }
     }
