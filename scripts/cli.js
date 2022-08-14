@@ -74,8 +74,8 @@ async function build(configFile, outputPath, debug = false) {
   }
 
   if (args.clean) {
-    console.log("Cleaning output folder...");
-    await fs.rm(outputPath, { recursive: true, force: true });
+    console.log("Cleaning output folder...", absoluteOutputPath);
+    await fs.rm(absoluteOutputPath, { recursive: true, force: true });
   }
 
   const config = await fs.readFile(path.resolve(configFile), {
