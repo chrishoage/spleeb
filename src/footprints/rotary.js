@@ -72,6 +72,7 @@ module.exports = {
           (fp_line (start 7.88 6.81) (end 7.88 -6.89) (layer F.CrtYd) (width 0.05))
           (fp_line (start 7.88 6.81) (end -8.87 6.81) (layer F.CrtYd) (width 0.05))
           (fp_circle (center -0.12 -0.04) (end 2.88 -0.04) (layer F.SilkS) (width 0.12))
+          (fp_circle (center -0.12 -0.04) (end 2.88 -0.04) (layer B.SilkS) (width 0.12))
           (fp_circle (center -0.12 -0.04) (end 2.88 -0.04) (layer F.Fab) (width 0.12))
 
           ${"" /* pin names */}

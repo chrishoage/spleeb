@@ -1,4 +1,4 @@
-20876432198162827
+20891378262305767
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -80282,6 +80282,13 @@ rotary encoder
 0
 5
 4
+SSD1306
+128x64OLED
+
+
+0
+4
+4
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -81808,6 +81815,62 @@ Logo WEEE
 0
 0
 0
+TG9541
+AliExpress_CR2032
+http://www.keyelco.com/product-pdf.cfm?p=719
+Keystone type 103 battery holder
+0
+2
+2
+TG9541
+Display_128x64_096_I2C
+Display 0.96" OLED 128x64 pixel with SSD1306 controller and I2C interface
+display OLED SSD1306 128x64
+0
+4
+4
+TG9541
+MSOP-10
+
+
+0
+10
+10
+TG9541
+Pin_Header_Straight_2x08_6wide_Pitch2.54mm
+Through hole straight pin header, 2x08, 2.54mm pitch, double rows
+Through hole pin header THT 2x08 2.54mm double row
+0
+16
+16
+TG9541
+SSR-ANY
+
+
+0
+9
+4
+TG9541
+USB_Micro-B_AliExpress_SMD
+USB Micro-B receptacle, U444-0156-96121
+usb micro receptacle
+0
+7
+6
+TG9541
+nRF24L01-ipx
+
+
+0
+8
+8
+TG9541
+nRF24L01mini
+
+
+0
+8
+8
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
