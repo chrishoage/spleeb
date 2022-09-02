@@ -556,6 +556,11 @@ pcbs:
       )
     )
   )'
+      graphic:
+        type: artwork
+        anchor:
+          shift: [248.239232, -88.273299]
+          rotate: 180
       manual_traces:
         type: rawkicad
         params:
