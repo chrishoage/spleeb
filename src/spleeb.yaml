@@ -414,7 +414,7 @@ outlines:
       operation: stack
       where: matrix_extra_top
       adjust:
-        shift: [jstph_x, jstph_y]
+        shift: [jstph_x + 3, jstph_y - 0.5]
 
     # rotary encoder cutout
     - what: rectangle
