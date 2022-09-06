@@ -40,7 +40,6 @@ points:
           to: =column_net
         params:
           reverse: true
-          keycaps: true
       diode:
         type: diode
         anchor:
@@ -324,7 +323,7 @@ outlines:
       operation: stack
       where: matrix_extra_number
       adjust:
-        shift: [(U + mcu_margin) / 2, -8]
+        shift: [((U + mcu_margin) / 2) - 2, -8]
 
     # rotary encoder
     - what: circle
@@ -403,18 +402,18 @@ outlines:
       operation: add
       where: matrix_extra_number
       adjust:
-        shift: [U, outline_margin]
+        shift: [((U+mcu_margin)/2) + 3.5, outline_margin]
         rotate: 0
     - what: outline
       name: _switches
       operation: subtract
     # jstph cutout
     - what: rectangle
-      size: [12, 6]
-      operation: stack
+      size: [11.861, 6.674]
+      operation: subtract
       where: matrix_extra_top
       adjust:
-        shift: [jstph_x + 3, jstph_y - 0.5]
+        shift: [jstph_x + 3.1, jstph_y - 0.5]
 
     # rotary encoder cutout
     - what: rectangle
