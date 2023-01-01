@@ -16,13 +16,17 @@ This split keboard is still under development has has not yet been fabricated. I
 - Optional rotary encoder replacing the bottom left key switch
 - OLED screen covering the MCU on the inside of the board
 - No acrylic case, only 3D printed case and plate, or cut plate
-- No RGB
+- No RGB (a joke - I don't use LEDs on keyboards but am open to accepting PRs if someone wants to do the work)
 
 | Left | Right |
 | --- | --- |
 | ![Left Spleeb](images/built_spleeb_left.jpg) | ![Right Spleeb](images/built_spleeb_right.jpg) |
 | ![Left Spleeb](images/pcb_left.png) | ![Right Spleeb](images/pcb_right.png) |
 
+
+### Motivation
+
+I'm not a fan of excessive layers, and many of the popular split keyboards are 3x5 and make heavy use of layers. I used the Ergodash for a while but found the placement of the mods to be uncomfortable, and the top row of the thumb cluster to be unused. Seeing some keyboards (like the [bastard keyboards' dilemma](https://bastardkb.com/dilemma/)) which leveraged the Cirque touchpad inspired me to create my own keyboard which allowed for the layout I wanted, along with all the bells and whistles like rotary encoders, oled screen and touchpad. A secondary purpose of this was to learn Fusion 360, KiCad, and a teensy tiny bit of C and electrical engineering.
 
 ### BOM
 
@@ -51,7 +55,7 @@ This split keboard is still under development has has not yet been fabricated. I
 
 Most of this build is straight forward and would follow any PCB build. Look for the diode silkscreen to know which direction didoes should go.
 
-The chassis was 3d modeled using Fusion 360 and the step files for both halves
+The chassis was 3d modeled using Fusion 360 and the step files for both halves are included as well.
 
 #### Cirque 35mm Touchpad
 
@@ -66,6 +70,27 @@ Wires should be hooked up to connector from the "outside" edge of the pcb to "in
 1. VCC (red)
 1. GND ("inside" - black)
 
+#### Cirque Touchpad Holder
+
+This needs to be redesigned. The tolerances are too tight and it scrapes the
+edge of the touchpad going in/out (see the overlay lifting in the images) and
+there is too much space under the touchpad pcb and can get "pushed" in. I solved
+this temporarily by bunching up some electrical tape and putting it under the
+touchpad between the bottom lid. The (eventual) redesign of the holder will be
+inset, and include a feature on the bottom lid to press the touchpad into place,
+along with having insets for the screws.
+
+The current design is functional but not ideal.
+
 ### Printing
 
 I used PETG but anything should work depending on your printer. I went for 75% infill to give the sound a tiny bit more thock. I didn't use supports for the 3.5mm and USB cutouts, and since I used PETG they required a little cleanup. YMMV on needing supports, but I designed the model to be printed with out supports.
+
+
+### FAQ
+
+##### Why is the trackpad holder separate?
+
+I only have a Prusa Mini+ and it just doesn't have the build volume to have the holder built in. The separate holder was a compromise to allow printing of a half in one part.
+
+There is the added benefit of the holder lifting up the touchpad above the keycaps which makes it easier to use.
