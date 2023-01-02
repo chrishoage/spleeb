@@ -1,7 +1,7 @@
 # Spleeb
 Another split keyboard... a "Spleeb".
 
-This split keboard is still under development has has not yet been fabricated. It is created using [Ergogen](https://github.com/ergogen/ergogen/) and the routing done manually, copied back into the yaml file. This was inspired a lot by the Ergodash which I used for about a year but wanted something that fit my use and hands a bit better.
+This split keyboard is created using [Ergogen](https://github.com/ergogen/ergogen/) and the routing done manually, copied back into the yaml file. This was inspired a lot by the Ergodash which I used for about a year but wanted something that fit my use and hands a bit better.
 
 
 ![Spleeb Feature Photo](images/built_spleeb_1.jpg)
