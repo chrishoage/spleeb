@@ -42,7 +42,7 @@ I'm not a fan of excessive layers, and many of the popular split keyboards are 3
 | 1.25u keycaps                                              | 4        |                                                                                                                                                                                                                                                      |
 | EC11 Encoder                                               | 2        | Alps Alpine EC11N1524402 used in build                                                                                                                                                                                                               |
 | Encoder Kob                                                | 2        | 18mm diameter                                                                                                                                                                                                                                        |
-| 1N4148 Though Hole Diodes                                  | 64       | SMD diodes supported on PCB but this has not been tested                                                                                                                                                                                             |
+| 1N4148 Through Hole Diodes                                  | 64       | SMD diodes supported on PCB but this has not been tested                                                                                                                                                                                            |
 | PJ-320A 3.5 mm jack                                        | 2        |                                                                                                                                                                                                                                                      |
 | JST PH 2.0 mm 4 pin straight connector                     | 2        | These are optional. Wires can be soldered directly to the though hole pads on the PCB. The connectors make disassembly easier.                                                                                                                       |
 | M2x0.4mm, 2.5mm installed length threaded heat set inserts | 8        | These are optional. Current model for chassis has hole diameters for the inserts but these are parametric and can be adjusted to allow for an M2 screw directly into the plastic                                                                     |
@@ -55,7 +55,7 @@ I'm not a fan of excessive layers, and many of the popular split keyboards are 3
 
 Most of this build is straight forward and would follow any PCB build. Look for the diode silkscreen to know which direction didoes should go.
 
-The chassis was 3d modeled using Fusion 360 and the step files for both halves are included as well.
+The original chassis CAD files created using Fusion 360 [are included](./chassis/) and the step files for all parts included as well.
 
 #### Cirque 35mm Touchpad
 
@@ -94,3 +94,9 @@ I used PETG but anything should work depending on your printer. I went for 75% i
 I only have a Prusa Mini+ and it just doesn't have the build volume to have the holder built in. The separate holder was a compromise to allow printing of a half in one part.
 
 There is the added benefit of the holder lifting up the touchpad above the keycaps which makes it easier to use.
+
+## License
+
+- All code in this repository is licensed under the [MIT](./LICENSE) license.
+- All images in this repository are licensed under the [Creative Commons Attribution-NonCommercial](https://creativecommons.org/licenses/by-nc/4.0/) license.
+- All CAD files in this repository are licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
