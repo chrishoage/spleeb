@@ -86,6 +86,10 @@ The current design is functional but not ideal.
 
 I used PETG but anything should work depending on your printer. I went for 75% infill to give the sound a tiny bit more thock. I didn't use supports for the 3.5mm and USB cutouts, and since I used PETG they required a little cleanup. YMMV on needing supports, but I designed the model to be printed with out supports.
 
+### Firmware
+
+Firmware is QMK based and [can be found in the QMK GitHub repo](https://github.com/qmk/qmk_firmware/tree/master/keyboards/spleeb).
+
 
 ### FAQ
 
