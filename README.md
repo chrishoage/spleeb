@@ -42,9 +42,12 @@ I'm not a fan of excessive layers, and many of the popular split keyboards are 3
 | 1.25u keycaps                                              | 4        |                                                                                                                                                                                                                                                      |
 | EC11 Encoder                                               | 2        | Alps Alpine EC11N1524402 used in build                                                                                                                                                                                                               |
 | Encoder Kob                                                | 2        | 18mm diameter                                                                                                                                                                                                                                        |
-| 1N4148 Through Hole Diodes                                  | 64       | SMD diodes supported on PCB but this has not been tested                                                                                                                                                                                            |
+| 1N4148 Through Hole Diodes                                 | 64       | SMD diodes supported on PCB but this has not been tested                                                                                                                                                                                             |
 | PJ-320A 3.5 mm jack                                        | 2        |                                                                                                                                                                                                                                                      |
 | JST PH 2.0 mm 4 pin straight connector                     | 2        | These are optional. Wires can be soldered directly to the though hole pads on the PCB. The connectors make disassembly easier.                                                                                                                       |
+| Mill-Max 315-93 Low Profile Sockets                        | 48       | These are optional. However the height of regular headers is slightly higher than these, so may need adjusting to the USB cutout                                                                                                                     |
+| Mill-Max 3320 Socket Pins                                  | 48       | These are optional. These are for the Mill-Max sockets                                                                                                                                                                                               |
+| Mill-Max 3305-1 Switch Sockets                             | 124      | These are optional. These allow switches to be swapped with out resoldering                                                                                                                                                                          |
 | M2x0.4mm, 2.5mm installed length threaded heat set inserts | 8        | These are optional. Current model for chassis has hole diameters for the inserts but these are parametric and can be adjusted to allow for an M2 screw directly into the plastic                                                                     |
 | M2x0.4mm, 4mm installed length threaded heat set inserts   | 20       | These are optional. Current model for chassis has hole diameters for the inserts but these are parametric and can be adjusted to allow for an M2 screw directly into the plastic                                                                     |
 | M2x0.4mm, 18mm length flat head screws                     | 20       | 16mm _should_ work as well. Low profile / ultra low profile heads will also work                                                                                                                                                                     |
@@ -56,6 +59,24 @@ I'm not a fan of excessive layers, and many of the popular split keyboards are 3
 Most of this build is straight forward and would follow any PCB build. Look for the diode silkscreen to know which direction didoes should go.
 
 The original chassis CAD files created using Fusion 360 [are included](./chassis/) and the step files for all parts included as well.
+
+### MCU Mounting and MCU Solder pads
+
+This PCB has solder pads on each side of the PCB. These solder pads allow the MCU to be mounted on either side of the PCB - however the intended use for this build is mounting the MCUs on the *underside* of the PCB - the side opposite the switches, with the MCU LED facing up. With this orientation the solder pads should be solder on the *same side as the switches.
+
+The solder pad opposite the through hole pad marked with the square 🔳 is RAW.
+
+If you mount the MCU with the LED facing out on the top (same side as switches) you would solder the pads on the top.
+
+If you mount the MCU with the LED facing out on the bottom (opposite side of switches) you would solder the pads on the bottom.
+
+If you mount the MCU with the LED facing in on the top (same side as switches) you would solder the pads on the bottom.
+
+If you mount the MCU with the LED facing in on the bottom (opposite side of switches) you would solder the pads on the top.
+
+Again - with the chassis as designed the last mounting option is the only one supported:
+
+Mount the MCU on the opposite side of the switches, with the LED facing in. Solder the pads on the same side as the switches.
 
 #### Cirque 35mm Touchpad
 
