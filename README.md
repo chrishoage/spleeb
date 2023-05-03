@@ -79,6 +79,12 @@ Again - with the chassis as designed the last mounting option is the only one su
 
 Mount the MCU on the opposite side of the switches, with the LED facing in. Solder the pads on the same side as the switches.
 
+| MCU Orientation | Solder pads on top |
+| --- | --- |
+| ![Left Spleeb](images/mcu_orientation.png) | ![Right Spleeb](images/mcu_solder_pads.png) |
+
+Since the PCB is reversible you would mirror this on the other side.
+
 #### Cirque 35mm Touchpad
 
 Use hookup wire to solder to the GND, VCC, SDA, SCL pads, and remove the R1 resistor if the SPI version was purchased.
